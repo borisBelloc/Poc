@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+
+<!-- Source : https://www.smashingmagazine.com/2018/01/drag-drop-file-uploader-vanilla-js/ -->
+  
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <link href='./css/bootstrap413/bootstrap.css' rel='stylesheet'>
+  <link href='./css/accueil.css' rel='stylesheet'>
+  <link href='./css/dragNdrop.css' rel=' stylesheet'>
+
+  <link rel="shortcut icon" type="image/png" href="img/poc.png" />
+
+  <title>dragNdrop</title>
+
+</head>
+
+
+<div class="row">
+  <div class="col-md-12 ">
+
+    <!-- mx-auto == center dans la col-->
+    <div class="col-md-4 col-lg-3 mx-auto">
+      <br>
+      <br>
+
+      <br>
+
+      <br>
+      <br>
+      <br>
+      <!-- FORM -->
+
+      <div id="drop-area">
+        <form class="my-form">
+          <p>Upload multiple files with the file dialog or by dragging and dropping images onto the dashed region</p>
+          <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
+          <label class="button" for="fileElem">Select some files</label>
+        </form>
+        <progress id="progress-bar" max=100 value=0></progress>
+        <div id="gallery" />
+      </div>
+      </div>
+      <!-- <div class="note"><strong>Note: I've Removed the ability to actually upload files (it will error out silently since
+          there is no error handler, so it'll still appear to work) because you guys were constantly filling up my Cloudinary
+          account. Please <a href="https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/j6iiupngdmwwwqspjtml">create your own
+            account</a> and replace the "joezim007" and "ujpu6gyk" bits in the JavaScript with your own account's
+          information.</strong></div> -->
+
+      <!-- FORM END -->
+
+
+
+    </div>
+
+  </div>
+</div>
+
+<script src='./js/dragNdrop.js'></script>
+
+</body>
+
+</html>

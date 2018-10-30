@@ -1,0 +1,60 @@
+/* ###### MODIFICATION GENERAL POUR TOUT LE SITE ###### */
+
+/* html, <- verif si utile d'ajouter html*/
+body {
+  background-color: #33312E;
+  color: #ffffff;
+}
+
+
+[class*="col-"] {
+  text-align: center;
+  /* border: 1px solid yellow; */
+}
+
+#Logo_arcanae_top_right {
+  /* 120px = 7.5em */
+  /* https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
+  /* Pourquoi 2 lignes suivantes */
+  /* max-width: 120px; */
+  /* max-height: 120px; */
+}
+/* Ajout taille minimum en width ? trop petit == moche */
+.limit img{
+  max-width: 120px;
+  max-height: 120px;
+  width: 100%;
+  height: 100%;
+  /* box-sizing: border-box; <- Est-ce utile sur l'image ? */
+}
+
+#empty_header {
+  padding: 0.5em;
+}
+
+.no_padding {
+  padding: 0px;
+}
+
+/***********************
+BTN Login
+************************/
+.btn-login {
+  color: #ffffff;
+  background-color: #a29c92;
+}
+
+.btn-login:hover,
+.btn-login:focus,
+.btn-login:active,
+.open>.dropdown-toggle.btn-login {
+    background: #817c73;
+}
+
+/***********************
+BTN Login
+************************/
+#ForgotPassword {
+  color: #1B1813
+}
+
