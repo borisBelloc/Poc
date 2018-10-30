@@ -1,6 +1,16 @@
 body {
   font-family: sans-serif;
+  background-color: #33312E;
+  color: #ffffff;
 }
+
+/* Centre les colones bootstrap */
+[class*="col-"] {
+  text-align: center;
+  /* border: 1px solid yellow; */
+}
+
+
 a {
   color: #369;
 }
@@ -39,13 +49,13 @@ p {
 .button {
   display: inline-block;
   padding: 10px;
-  background: #ccc;
+  background: #a29c92;
   cursor: pointer;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
 .button:hover {
-  background: #ddd;
+  background: #817c73;
 }
 #fileElem {
   display: none;
