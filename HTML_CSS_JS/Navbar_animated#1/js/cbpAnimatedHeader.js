@@ -15,6 +15,7 @@ var cbpAnimatedHeader = (function() {
 		didScroll = false,
 		changeHeaderOn = 300;
 
+		// surveille si un scroll a lieu sur la page et transforme le header au bout d'un certain délai
 	function init() {
 		window.addEventListener( 'scroll', function( event ) {
 			if( !didScroll ) {
@@ -24,6 +25,7 @@ var cbpAnimatedHeader = (function() {
 		}, false );
 	}
 
+	// applique le paramettre navbar-shrink afin de pouvoir transformer le header
 	function scrollPage() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
