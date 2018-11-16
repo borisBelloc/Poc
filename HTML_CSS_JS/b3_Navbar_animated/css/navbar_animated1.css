@@ -22,23 +22,31 @@ ul {
     margin: 0;
     padding: 0;
 }
+
 li {
     list-style: none;
 }
 
-/*------------------------------------------------*/
+/* COMPLEMENTARY TEXT */
+.navbar-text {
+    color: gold !important;
+}
+
+
+------------------------------------------------
 /* Start Top Navbar Section                           */
 /*------------------------------------------------*/
 
 .navbar-default {
     border-color: transparent;
+    /* background-color: transparent; */
     background-color: #222;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
     /* couleur "nom compagnie" du header : surcharge la couleur définie dans bootstrap */
-    /* color: blue; */
+    color: blue;
 
 }
 
@@ -54,7 +62,7 @@ li {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -72,6 +80,8 @@ li {
     color: #fff;
 }
 
+
+/* COULEUR NAVBAR SUR MOBIL <768 */
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -98,7 +108,7 @@ li {
         -o-border-radius: 3px;
     }
 
-    /* EFFET AJOUTE AU POINT D4ACCROCHE LORSQUE SCROL DETECTE */
+    /* EFFET AJOUTE AU POINT D'ACCROCHE LORSQUE SCROL DETECTE */
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
@@ -108,6 +118,5 @@ li {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
-    
-}
 
+}

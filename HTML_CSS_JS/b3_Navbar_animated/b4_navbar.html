@@ -11,18 +11,31 @@
 
 	<title>b4_ Navbar animated #1</title>
 
-<!-- DOC : https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
+	<!-- DOC : https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
 
 	<!-- Bootstrap 4.1.3 Core CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap413/bootstrap.css">
 
 	<!-- Custom CSS -->
-	<link rel="stylesheet" type="text/css" href="css/navbar_animated1.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/navbar_animated1.css">
 
 	<link rel="shortcut icon" type="image/png" href="img/poc.png" />
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
+	
+  <script src="./js/jquery/jquery-3.3.1.min.js"></script>
+		<!-- Bootstrap Core JavaScript -->
+	<script src="./js/bootstrap413/bootstrap.js"></script>
+
+
+
+
 </head>
 
+<!-- TODO : Reste plus qu'a nettoyer fichier js / css afin de verifier que tout soit vraiment utile ! -->
 
 <body>
 
@@ -32,7 +45,8 @@
 			<div class="col-md-12">
 
 				<!-- *Point d'acroche du JS AnimatedHeader : navbar-default  -->
-				<nav class="navbar navbar-default navbar-expand-sm navbar-dark fixed-top"> <!-- TODO : what is : navbar-expand-sm ?-->
+				<nav class="navbar navbar-default navbar-expand-sm navbar-dark fixed-top">
+					<!-- TODO : what is : navbar-expand-sm ?-->
 					<!-- bg-dark -->
 
 
@@ -45,10 +59,11 @@
 						<span class="navbar-toggler-icon"></span>
 					</button>
 
+
 					<!-- Navbar links -->
 					<div class="collapse navbar-collapse" id="collapsibleNavbar">
 						<ul class="navbar-nav">
-							<li class="nav-item">
+							<li class="nm">
 								<a class="nav-link" href="#">Feature</a>
 							</li>
 							<li class="nav-item">
@@ -61,13 +76,14 @@
 								<a class="nav-link" href="#">Services</a>
 							</li>
 						</ul>
+						<span class=" aa navbar-text">
+								HERE IS COMPLEMENTARY TEXT
+							</span>
 					</div>
 
 					<!-- Navbar text-->
 					<!-- Use the .navbar-text class to vertical align any elements inside the navbar that are not links (ensures proper padding and text color). -->
-					<span class="navbar-text">
-						Navbar text
-					</span>
+  <!-- Navbar text-->
 
 				</nav>
 				<!-- /.navbar-collapse -->
@@ -76,16 +92,28 @@
 	</div>
 	<!-- /.container-fluid -->
 
-<div class="col-md-12 mt-5 pt-5">
 
 	<!-- ------------------------------ -->
-	TODO :
-	-verif les id different (catch JS SCRIPT ?)
-	-Regarder dans script JS ou est l'event listener qui surveille le scroll
+	<div class="col-md-12 mt-5 pt-5">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum, erat non commodo ornare, nibh magna congue
+		magna, nec molestie sem velit vitae magna. Aenean ac quam sit amet ante sagittis pharetra. Etiam sed sodales ex.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum rutrum ligula, et ultrices felis eleifend vitae.
+		Sed volutpat, enim quis semper faucibus, ipsum sem malesuada justo, vitae euismod lectus est at dolor. Integer mollis
+		nulla quis ante cursus, sed posuere lectus tincidunt. Nulla volutpat ipsum arcu, vitae cursus ligula efficitur eget.
+		Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec aliquet libero et risus suscipit dictum.
+		Vestibulum malesuada ligula ac eros venenatis gravida fermentum in est. Cras vel tellus mi.
 
-</div>
+		Ut vitae ipsum euismod, condimentum augue ullamcorper, mollis justo. Morbi laoreet, magna ac faucibus varius, velit
+		nisl lobortis leo, non blandit sapien lectus eu libero. Aliquam nunc ipsum, mollis et elementum at, vehicula id elit.
+		In pretium sem non ligula aliquet efficitur id consectetur lacus. Nulla ornare dolor vitae egestas placerat. Aliquam
+		ac nisi odio. Cras suscipit nunc ultricies turpis aliquet feugiat. Suspendisse luctus eu lectus non dignissim. Donec
+		egestas ante quis nibh porttitor, vel convallis ante lacinia. Curabitur pulvinar, quam a sollicitudin venenatis,
+		tortor massa lobortis justo, non pulvinar dolor nisl eu leo. Duis scelerisque mollis rutrum. Praesent in urna
+		pellentesque, fringilla enim vel, venenatis erat. Donec eu nibh ut felis bibendum sodales eget sed velit. Morbi
+		congue purus et felis tempor iaculis. Sed non ultrices urna. Ut gravida feugiat sodales.
+	</div>
 	<!-- ------------------------------ -->
-	
+
 	<br><br><br><br><br><br><br><br>
 	<img src="img/BB-Icon_v4.png" alt="My image">
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -99,14 +127,12 @@
 	<script src="js/cbpAnimatedHeader.js"></script>
 
 	<!-- jQuery Version 2.1.1 -->
-	<script src="js/jquery211/jquery-2.1.1.min.js"></script>
+	<!-- <script src="js/jquery/jquery-2.1.1.min.js"></script> -->
 
 	<!-- jQuery library b4 -->
 	<!-- sauce : https://www.w3schools.com/bootstrap/bootstrap_get_started.asp -->
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 
-	<!-- Bootstrap Core JavaScript -->
-	<script src="js/bootstrap331/bootstrap.min.js"></script>
+
 
 
 
