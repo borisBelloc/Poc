@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Satisfy);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,400italic);
 @import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
- 
+
 body {
     /* doc overflow-x : https://www.w3schools.com/cssref/css3_pr_overflow-x.asp */
     overflow-x: hidden;
@@ -97,6 +97,8 @@ li {
         -moz-border-radius: 3px;
         -o-border-radius: 3px;
     }
+
+    /* EFFET AJOUTE AU POINT D4ACCROCHE LORSQUE SCROL DETECTE */
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;

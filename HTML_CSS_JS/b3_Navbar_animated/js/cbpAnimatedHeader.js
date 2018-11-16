@@ -10,6 +10,7 @@
  */
 var cbpAnimatedHeader = (function() {
 
+	// Definie ou est le header de la page !!
 	var docElem = document.documentElement,
 		header = document.querySelector( '.navbar-default' ),
 		didScroll = false,
