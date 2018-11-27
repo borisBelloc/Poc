@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Upload image</title>
+</head>
+<body>
+  
+
+
+
+  <form method="post" enctype="multipart/form-data">
+    <div class="file btn btn-lg btn-dark">
+      {% csrf_token %}
+      
+      <!-- <input type="file" name="myfile"> -->
+      {{ form.image1 }}
+      <button type="submit">Upload</button>
+    </div>
+  </form>
+
+
+  <h1>PREVIEW</h1>
+<hr>
+<span><h5>Nom du fichier :</h5>  {{ image.image1 }} </span>
+
+  <br>
+  <br>
+  <img src="{{ image.image1.url }}" />
+  <br>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
