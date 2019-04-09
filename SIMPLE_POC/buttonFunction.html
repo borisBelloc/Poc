@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="BELLOC Boris">
+  <title>On Mouse Over</title>
+
+  <!-- CSS Internal Style Sheet -->
+  <style>
+    #colorHere {
+      background-color: coral;
+    }
+  </style>
+
+  <!-- BOOTSTRAP 4 CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+
+  <!-- Doc : https://www.w3schools.com/jsref/event_onmouseover.asp -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 mt-4 text-center">
+        <div id="colorHere">
+          <br>
+          <button onclick='msg()'>Click me</button>
+
+          <br><br>
+
+          <button type="button" class="btn btn-danger" onclick='msg()'>Bootstrap 4 button 'r better</button>
+          <br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function msg() {
+      alert("BUTTON CLICKED !")
+    }
+  </script>
+
+
+</body>
+
+</html>
