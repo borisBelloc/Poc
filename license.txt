@@ -3,5 +3,6 @@ Use at your own risk.
 
 
 
-Content * 2018 BELLOC Boris, unless otherwise specified
-updated 2018_11_10
+Content * 2018-2019 BELLOC Boris, unless otherwise specified
+updated 2019_04_10
+~updated 2018_11_10~
