@@ -40,6 +40,6 @@ _Django tree_
 app _(instal POC as django app)_ :
 - upload_img
 
-Folder > Localisation | Additional languages and/or framework used | What | TODO "one day"
----- | ---- | ---- | ---- | ----
+Folder > Localisation | Additional technos | What | TODO "one day"
+---- | ---- | ---- | ----
 DJANGO > POC >> Upload_image | / | Upload an image (into server) and display it to replace the website image place holder | /
