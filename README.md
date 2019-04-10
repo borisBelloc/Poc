@@ -38,6 +38,15 @@ HTML_CSS_JS | dragNdrop | bootstrap 4.1.3 (only for beautify/layout) | drag and 
 
 <br/><br/>
 
+PYTHON :snake:
+=======
+Main Folder | file | imports | What
+ ---- | ---- | ---- | ----
+PYTHON | py_unaccent.py | unicodedata | remove accents from string(s)
+
+
+<br/><br/>
+
 DJANGO :notes:
 =======
 _Django tree_
