@@ -3,10 +3,6 @@
 POC :thought_balloon:
 =======
 
-my POCs
-
-_*mandatory/obligatoire_
-
 <br/><br/>
 
 SIMPLE_POC :dizzy:
@@ -26,7 +22,7 @@ HTML_CSS_JS :family:
 =======
 
 Main Folder | Folder | Additional languages and/or framework used | What | TODO "one day"
- ---- | ---- | ---- | ----
+ ---- | ---- | ---- | ----| ----
 HTML_CSS_JS | passwordReveal | VueJS, Bootstrap | A VueJs poc to reveal the password in his input field | /
 HTML_CSS_JS | reCaptcha | JavaScript, Google API reCaptcha, Bootstrap | reCaptcha module | /
 HTML_CSS_JS | dragNdrop | bootstrap 4.1.3 (only for beautify/layout) | drag and drop a list of images or import them with a classic button | /
