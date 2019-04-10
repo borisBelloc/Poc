@@ -15,7 +15,7 @@ _Fast & short poc_ ; only one function
 
 File name | lang ? | what ?
 ----| ----| ----
-onMouseOver.html | HTML / JS | Mouse over a <div> and display an alert
+onMouseOver.html | HTML / JS | Mouse over a \<div> and display an alert
 buttonFunction.html | HTML / JS | Launch a JS function when button clicked
 
 
