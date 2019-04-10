@@ -1,0 +1,60 @@
+<head>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<title>reCaptcha</title>
+	<meta name="author" content="Boris BELLOC">
+</head>
+
+<!-- Doc by Google : https://developers.google.com/recaptcha/docs/display -->
+
+<form action="https://github.com/borisBelloc" method="post">
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+	<div class="container">
+		<div class="mt-5"></div>
+		<div class="col-md-12">
+			<!-- Change the data-sitekey= with your own public key -->
+			<!-- Change the data-sitekey= with your own public key -->
+			<div class="g-recaptcha" data-sitekey="6Le4GmsUAAAAADEsJwwfcVnvjEGTRqCfo3bp_ZIx" data-callback="enableBtn"
+				data-expired-callback="dissableBtn"></div>
+		</div>
+
+		<div class="mt-3"></div>
+		<div class="col-md-12" id="textInfo">
+			Please validate the Captcha above before trying to access the website.
+			<div class="mt-1"></div>
+		</div>
+
+		<div class="col-md-12">
+			<input type="submit" value="open the website !" disabled="disabled" id="isCaptchaOk" class="btn btn-success">
+		</div>
+	</div>
+</form>
+
+<!--  javascript to enable button if captcha is valided and disable button is captcha is expired-->
+<script type="text/javascript">
+	function enableBtn() {
+		document.getElementById("isCaptchaOk").disabled = false;
+		document.getElementById("textInfo").style.visibility = "hidden";
+	}
+
+	function dissableBtn() {
+		document.getElementById("isCaptchaOk").disabled = true;
+		document.getElementById("textInfo").style.visibility = "visible";
+	}
+</script>
+
+<!-- Css for the button -->
+<style>
+	input[disabled]#isCaptchaOk,
+	input[disabled]#isCaptchaOk:hover,
+	input[disabled]#isCaptchaOk:active,
+	input[disabled]#isCaptchaOk:focus {
+		background: #CCCCCC;
+		box-shadow: none;
+		outline: none;
+		opacity: 0.5;
+		text-decoration: none;
+	}
+</style>
