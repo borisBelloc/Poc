@@ -23,7 +23,7 @@ HTML_CSS_JS :family:
 
 Main Folder | Folder | Additional languages and/or framework used | What | TODO "one day"
  ---- | ---- | ---- | ----| ----
-HTML_CSS_JS | passwordReveal | VueJS, Bootstrap | A VueJs poc to reveal the password in his input field | /
+HTML_CSS_JS | passwordReveal | VueJS, Bootstrap | add an icons near a password input to let the user reveal his password before validation | /
 HTML_CSS_JS | reCaptcha | JavaScript, Google API reCaptcha, Bootstrap | reCaptcha module | /
 HTML_CSS_JS | dragNdrop | bootstrap 4.1.3 (only for beautify/layout) | drag and drop a list of images or import them with a classic button | /
 :collision:HTML_CSS_JS | Navbar_animated#1 | bootstrap 3.3.1, jquery 2.1.1 | The header/Navbar change color when you start scrolling and resize; +responsive | Change from bootstrap 331 to 4xx; **almost done, see file b4_navbar.html**
