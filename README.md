@@ -1,6 +1,6 @@
-POC :thought_balloon:
+:thought_balloon: Proofs of Concept. (PoC) :coffee:
 =======
-_2019_04_10 : Imported from gitlab, in progress of cleaning it_
+_2019_04_10 : Project imported from my gitlab account, in progress of cleaning it_
 
 <br/>
 
@@ -10,6 +10,7 @@ _Fast & short poc_ ; only one function
 
 File name | lang ? | what ?
 ----| ----| ----
+AutoRefreshPage.html | JS | :bulb: Auto-refresh an HTML page; useful when you work on a page and want to see the change without manually refreshing it!
 onMouseOver.html | HTML / JS | Mouse over a \<div> and display an alert
 buttonFunction.html | HTML / JS | Launch a JS function when button clicked
 

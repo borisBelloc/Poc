@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <title>POC : Auto-reload script</title>
+</head>
+
+<body>
+
+<!--  
+Add this script into your html page; 
+inside the <body> </body> 
+
+It will refresh/reload page every 3 seconds / You can change the delay youself with.
+Time is in milliseconds (1000 = 1 sec)   
+-->
+
+  <script>
+    window.onload = function () {
+      setInterval(function () {
+        location.reload();
+      }, 3000);
+    };
+  </script>
+
+
+
+</body>
+
+</html>
