@@ -10,6 +10,7 @@ _Fast & short poc_ ; only one function
 
 File name | lang ? | what ?
 ----| ----| ----
+sticky.html | Html +Bootstrap4 | Make a div sticky to the top; custom sticky and/or bootstrap4 sticky <br/>(_bootstrap 4 optionnal_)
 loremIpsum.md | Text | Alway looking on google for the Lorem Ipsum generator ? look no more ; <br/> 12 paragraphs, 1000 words here.
 AutoRefreshPage.html | JS | :bulb: Auto-refresh an HTML page; useful when you work on a page and want to see the change without manually refreshing it!
 onMouseOver.html | HTML / JS | Mouse over a \<div> and display an alert
