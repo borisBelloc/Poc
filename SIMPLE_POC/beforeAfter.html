@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <!-- CDN BOOTSTRAP 4.0 -->
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'
+    integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+
+  <title>POC : ::before/::after</title>
+</head>
+
+<body>
+
+  <!-- DOC : -->
+  <!-- Before : https://developer.mozilla.org/en-US/docs/Web/CSS/::before -->
+  <!-- After : https://developer.mozilla.org/en-US/docs/Web/CSS/::after -->
+
+    <div class="title">
+      <h2>BELLOC BORIS</h2>
+      <p>Web developer; Javascript, Python, Django, HTML/CSS.</p>
+    </div>
+
+  <!-- CSS Internal Style Sheet -->
+  <style>
+    .title h2::before {
+      content: '';
+      width: 40px;
+      height: 2px;
+      background: #80d6a3;
+      position: absolute;
+      top: 12px;
+      left: -60px;
+    }
+
+    .title h2::after {
+      content: '';
+      width: 40px;
+      height: 2px;
+      background: #80d6a3;
+      position: absolute;
+      top: 12px;
+      right: -60px;
+    }
+
+    .title {
+      text-align: center;
+      padding-bottom: 70px;
+    }
+
+    .title h2 {
+      color: #333;
+      font-size: 25px;
+      padding-bottom: 25px;
+      text-transform: uppercase;
+      display: inline-block;
+      position: relative;
+    }
+  </style>
+
+
+</body>
+
+</html>
