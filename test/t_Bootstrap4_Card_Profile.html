@@ -5,12 +5,17 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 
+    <meta name="author" content="Boris Belloc">
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" type="image/png" href="../img/poc.png" />
+
 
   <!-- CDN BOOTSTRAP 4.0 -->
   <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'
     integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
 
-  <link rel="stylesheet" type="text/css" href="css.css" />
+  <link rel="stylesheet" type="text/css" href="t_Bootstrap4_Card_Profile.css" />
 
   <title>Template : Boostrap 4 Profile Card</title>
 </head>
@@ -18,49 +23,72 @@
 <body>
   <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"> -->
 
+
+
+
   <div class="container">
-    <div class="row justify-content-center">
-      
-      <div class="col-md-4 borderBlack">
-        <!-- START widget-->
-        <div class="panel widget">
-          <div class="half-float">
-            <!-- Fond IMG -->
-            <img src="http://themicon.co/theme/angle/v2.4/backend-jquery/app/img/bg3.jpg" alt="Image Cover"
-              title="Boris BELLOC" class="img-responsive">
-            <div class="half-float-bottom">
-              <!-- Avatar IMG -->
-              <img src="image_preview.png" alt="Image profile" title="Boris BELLOC"
-                class="img-thumbnail img-circle thumb128">
-            </div>
-          </div>
-          <div class="panel-body text-center">
-            <h3 class="m0">Clark Kentman</h3>
-            <p class="text-muted">Lead director</p>
-            <p>Proin metus justo, commodo in ultrices at, lobortis sit amet dui. Fusce dolor purus, adipiscing a
-              tempus
-              at, gravida vel purus.</p>
-          </div>
-          <div class="panel-body text-center bg-gray-dark">
-            <div class="row row-table">
-              <div class="col-xs-4">
-                <h3 class="m0">400</h3>
-                <p class="m0">Photos</p>
-              </div>
-              <div class="col-xs-4">
-                <h3 class="m0">2000</h3>
-                <p class="m0">Likes</p>
-              </div>
-              <div class="col-xs-4">
-                <h3 class="m0">500</h3>
-                <p class="m0">Following</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- END widget-->
-      </div>
+    <div class="row">
+
+      <!-- EMPLACEMENT  EMPLACEMENT EMPLACEMENT  EMPLACEMENT -->
+      <div class="col-6 d-flex justify-content-center"> <!-- Attention : a l'export prendre la propriété de cette div pour le parent de la carte-->
+
         
+        <div id="profileCard" class="col-md-7 borderBlack"> <!-- SIZE OF CARD HERE-->
+          <!-- START widget-->
+          <div class="panel widget my-3">
+            <div class="half-float">
+              <!-- Fond IMG -->
+              <img src="http://themicon.co/theme/angle/v2.4/backend-jquery/app/img/bg3.jpg" alt="Image Cover" title="Boris BELLOC" class="img-responsive">
+
+              <div class="half-float-bottom">
+                <!-- Avatar IMG -->
+                <img src="image_preview.png" alt="Image profile" title="Boris BELLOC"
+                  class="img-thumbnail img-circle thumb128">
+              </div>
+            </div>
+            <div class="panel-body text-center">
+              <h3 class="m0">Boris BELLOC</h3>
+              <p class="text-muted"><i>junior developer</i></p>
+              <p>Proin metus justo, commodo in ultrices at, lobortis sit amet dui. Fusce dolor purus, adipiscing a
+                tempus
+                at, gravida vel purus.</p>
+            </div>
+            <div class="panel-body text-center bg-gray-dark">
+              <div class="row row-table">
+                <div class="col-xs-4">
+                  <h3 class="m0">400</h3>
+                  <p class="m0">Photos</p>
+                </div>
+                <div class="col-xs-4">
+                  <h3 class="m0">2000</h3>
+                  <p class="m0">Likes</p>
+                </div>
+                <div class="col-xs-4">
+                  <h3 class="m0">500</h3>
+                  <p class="m0">Following</p>
+                </div>
+              </div>
+              <!-- Write here in black card -->
+            </div>
+          </div>
+          <!-- END widget-->
+        </div>
+
+      </div>
+      <div class="col-6">b</div>
+      <!-- EMPLACEMENT  EMPLACEMENT EMPLACEMENT  EMPLACEMENT -->
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   </div>
 
