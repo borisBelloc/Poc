@@ -12,7 +12,7 @@ _Fast & short poc_ ; only one function
 
 File name | lang ? | what ?
 ----| ----| ----
-get_element_position.html | JS | mouse hover and element to get its position (x, y) using javascript
+get_element_position.html | JS | mouse hover an element to get its position (x, y) using javascript
 beforeAfter.html | CSS | Use of ::before and ::after
 sticky.html | Html +Bootstrap4 | Make a div sticky to the top; custom sticky and/or bootstrap4 sticky <br/>(_bootstrap 4 optionnal_)
 loremIpsum.md | Text | Alway looking on google for the Lorem Ipsum generator ? look no more ; <br/> 12 paragraphs, 1000 words here.
