@@ -1,6 +1,8 @@
 :thought_balloon: Proofs of Concept. (PoC) :coffee:
 =======
-_2019_04_10 : Project imported from my gitlab account, in progress of cleaning it_
+_2019_04_10 : Project imported from my gitlab account
+
+:floppy_disk: Beware : all poc made and tested with Google Chrome
 
 <br/>
 
