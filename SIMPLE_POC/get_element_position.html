@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <link rel="shortcut icon" type="image/png" href="../img/poc.png" />
+  <meta name='author' content='Boris Belloc'>
+  <title>POC : get position of element</title>
+
+  <!-- BOOTSTRAP 4 CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--
+  1/ Take the <script> at the bottom of this page 
+  2/ add this propriety to the element: onmouseover = "getPositionXY(this)"
+-->
+
+  <div class="container text-center" style="background-color: teal;">
+    <div>
+      <br><br>
+      <strong>Mouse hover one of the span to get its position</strong>
+      <br><br><br><br><br><br>
+      <!-- CONTENT -->
+
+      <!-- onmouseover = "getPositionXY(this)" -->
+      <div>
+        <span onmouseover="getPositionXY(this)" style="background-color: #4a7ce9;">
+          Span 1
+        </span>
+
+        <br><br><br>
+        <span onmouseover="getPositionXY(this)" style="background-color: #e94acf;">
+          Span 2
+        </span>
+        <br><br><br>
+        <div class="text-right">
+          <span onmouseover="getPositionXY(this)" style="background-color: #e94a65;">
+            Span 3
+          </span>
+        </div>
+
+        <br><br><br><br>
+        <div style="background-color: pink;">
+          Result here :
+          <p id="resultat"></p>
+        </div>
+
+        <br><br>
+        <!-- CONTENT -->
+
+      </div>
+    </div>
+    <!-- SCRIPT -->
+    <script type="text/javascript">
+      function getPositionXY(element) {
+        const rect = element.getBoundingClientRect();
+        document.getElementById('resultat').innerHTML = 'X: ' + rect.x + '<br>' + 'Y: ' + rect.y;
+      }
+    </script>
+
+
+</body>
+
+</html>
