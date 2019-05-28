@@ -2,7 +2,7 @@
 =======
 _2019_04_10 : Project imported from my gitlab account
 
-:floppy_disk: Beware : all poc made and tested with Google Chrome
+:floppy_disk: Beware : all poc are made and tested with Google Chrome !
 
 <br/>
 
@@ -12,6 +12,7 @@ _Fast & short poc_ ; only one function
 
 File name | lang ? | what ?
 ----| ----| ----
+arrowCSS.html | CSS | a triangle and it's shadow made with css; perfect for tooltips
 get_element_position.html | JS | mouse hover an element to get its position (x, y) using javascript
 beforeAfter.html | CSS | Use of ::before and ::after
 sticky.html | Html +Bootstrap4 | Make a div sticky to the top; custom sticky and/or bootstrap4 sticky <br/>(_bootstrap 4 optionnal_)
