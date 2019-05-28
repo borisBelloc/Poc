@@ -13,6 +13,7 @@
       color: #ffffff;
     }
 
+    /* Arrow <<- */
     .textContainer {
       background: coral;
       border: 1px solid rgb(238, 71, 10);
@@ -25,13 +26,14 @@
     }
 
     .textContainer:before {
+      /* Shadow */
       position: absolute;
       display: inline-block;
       border-top: 7px solid transparent;
       border-right: 7px solid transparent;
       border-bottom: 7px solid transparent;
       border-right-color: rgb(238, 71, 10);
-      left: -8px;
+      left: -7px;
       top: 20px;
       content: '';
     }
@@ -44,6 +46,43 @@
       border-right: 6px solid coral;
       border-bottom: 6px solid transparent;
       left: -6px;
+      top: 21px;
+      content: '';
+    }
+
+    /* Arrow ->> */
+    .textContainerTwo {
+      background: coral;
+      border: 1px solid rgb(238, 71, 10);
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      position: relative;
+      width: 200px;
+      margin-left: 20px;
+    }
+
+    .textContainerTwo:before {
+      /* Shadow */
+      position: absolute;
+      display: inline-block;
+      border-top: 7px solid transparent;
+      border-left: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left-color: rgb(238, 71, 10);
+      left: 100%;
+      top: 20px;
+      content: '';
+    }
+
+    .textContainerTwo:after {
+      position: absolute;
+      display: inline-block;
+      border-top: 6px solid transparent;
+      /* Paint the arrow : */
+      border-left: 6px solid coral;
+      border-bottom: 6px solid transparent;
+      right: -6px;
       top: 21px;
       content: '';
     }
@@ -60,6 +99,16 @@
 
 
   <div class="textContainer">
+    My name is BELLOC Boris;
+    <br><br>
+    this is some random text to make a content inside the textContainer.
+    <br><br>
+    Today is the 28th day of may 2019.
+  </div>
+
+  <br><br><br><br><br><br>
+
+  <div class="textContainerTwo">
     My name is BELLOC Boris;
     <br><br>
     this is some random text to make a content inside the textContainer.
