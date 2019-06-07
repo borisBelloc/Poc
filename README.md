@@ -13,7 +13,7 @@ _Fast & short poc_ ; only one function
 File name | lang ? | what ?
 ----| ----| ----
 verticalAlign1.html | bootstrap 4 | Align a text and an image verticaly with flex box / or css
-arrowCSS.html | CSS | a triangle and it's shadow made with css; perfect for tooltips
+arrowCSS.html | CSS | a triangle and its shadow made with css; perfect for tooltips
 get_element_position.html | JS | mouse hover an element to get its position (x, y) using javascript
 beforeAfter.html | CSS | Use of ::before and ::after
 sticky.html | Html +Bootstrap4 | Make a div sticky to the top; custom sticky and/or bootstrap4 sticky <br/>(_bootstrap 4 optionnal_)
