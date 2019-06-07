@@ -1,3 +1,5 @@
+2019_06_07 ; Added simple POC verticaly aligned
+
 2019_05_28 : Added CSS Arrows with shadow
 
 2019_04_09 : Cleaned some files, tested Django "upload_file" POC ; Todo : 1/remove from gitlab and upload to github ; 2/clean files and code

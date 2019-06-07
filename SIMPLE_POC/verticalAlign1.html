@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name="author" content="BELLOC Boris">
+  <link rel="shortcut icon" type="image/png" href="../img/poc.png" />
+  <title>Vertical Align text/image</title>
+
+  <!-- * CSS then JQUERY then JS !! -->
+  <!-- CDN BOOTSTRAP 4.0 -->
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+
+
+</head>
+
+<body>
+
+  <!-- CONTENT -->
+
+  <!-- ! This <span> is verticaly centered -->
+  <!-- More info here : https://stackoverflow.com/questions/42252443/vertical-align-center-in-bootstrap-4 -->
+  <div class="container d-flex h-100">
+    <div class="row">
+      <img src="../img/usedInPoc/bellocBoris.png" alt="Belloc Boris" title="Belloc Boris">
+      <span class="align-self-center">BELLOC Boris aligned</span>
+    </div>
+  </div>
+
+  <!--/end CONTENT -->
+
+  <div class="container">
+    <div class="row">
+      <td>
+        <img height="20" src="../img/usedInPoc/axios.png" alt="Axios" title="Axios"> <!-- width="35" -->
+        Axios
+      </td>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <td>
+        <img src="../img/usedInPoc/bellocBoris.png" alt="Belloc Boris" title="Belloc Boris">
+        BELLOC Boris
+      </td>
+    </div>
+  </div>
+
+  <br><br><br><br>
+
+
+  <div class="container d-flex h-100">
+    <div class="row justify-content-center align-self-center">
+      <img height="20" src="../img/usedInPoc/axios.png" alt="Axios" title="Axios"> <!-- width="35" -->
+      Axios
+    </div>
+  </div>
+
+
+
+  <br><br><br><br>
+
+  <!-- With a <table> -->
+
+  <div class="container">
+
+    <table>
+      <tbody>
+
+        <tr>
+          <td style="border:1px solid black">
+            <img src="../img/usedInPoc/axios.png" alt="Belloc Boris" title="Belloc Boris">
+            BELLOC Boris
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+
+
+  <br><br><br><br>
+  <!-- Table verticaly aligned (img + text) with css -->
+  
+  <!-- ! -->
+  <!-- TABLE CSS -->
+  <style>
+    #technosTimeline {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    #technosTimeline tr td img,
+    #technosTimeline span {
+      vertical-align: middle;
+    }
+  </style>
+
+  <!-- ! -->
+
+  <div class="container">
+
+    <table id="technosTimeline" class="table table-sm">
+      <tbody>
+
+        <tr>
+          <td>
+            <img width="20" height="20" src="../img/usedInPoc/Python.png" alt="Python" title="Python">
+            <span>Python</span>
+          </td>
+          <td>
+            <img height="20" src="../img/usedInPoc/django-logo-negative.png" alt="Django" title="Django">
+            <span>Django</span>
+          </td>
+          <td class="align-baseline">
+            <img width="20" height="20" src="../img/usedInPoc/JS.png" alt="Javascript" title="JavaScript">
+            <span>JavaScript</span>
+          </td>
+          <td>
+            <img height="20" src="../img/usedInPoc/axios.png" alt="Axios" title="Axios">
+            <span>Axios</span>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img height="22" src="../img/usedInPoc/html_N_css_v2.png" alt="HTML 5 et CSS3" title="HTML 5 et CSS3">
+            <span>Html5 & Css3</span>
+          </td>
+          <td colspan="2">
+            <img height="22" src="../img/usedInPoc/SQL.png" alt="SQL" title="SQL"> <!-- width="30"  -->
+            <span>SQL</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+
+</body>
+
+</html>
