@@ -2,7 +2,7 @@
 =======
 _2019_04_10 : Project imported from my gitlab account
 
-/ if you'r looking for a repo more focused on python : https://github.com/borisBelloc/PythonLibrariesAndFrameworks
+_/ if you'r looking for a repo more focused on python : https://github.com/borisBelloc/PythonLibrariesAndFrameworks_
 
 :floppy_disk: Beware : all poc are made and tested with Google Chrome !
 
