@@ -12,6 +12,7 @@ _Fast & short poc_ ; only one function
 
 File name | lang ? | what ?
 ----| ----| ----
+rainbowTextAnimation.html | Css | Css animation change text color 'rainbow'
 verticalAlign1.html | bootstrap 4 | Align a text and an image verticaly with flex box / or css
 arrowCSS.html | CSS | a triangle and its shadow made with css; perfect for tooltips
 get_element_position.html | JS | mouse hover an element to get its position (x, y) using javascript
