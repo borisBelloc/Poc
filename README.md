@@ -34,6 +34,7 @@ HTML_CSS_JS :family:
 
 Main Folder | Folder | Additional languages and/or framework used | What | TODO "one day"
  ---- | ---- | ---- | ----| ----
+HTML_CSS_JS | loaderBlueCounter | Css, jQuery | Blue loader | todo: connect it to page loading
 HTML_CSS_JS | passwordReveal | VueJS, Bootstrap | add an icons near a password input to let the user reveal his password before validation | /
 HTML_CSS_JS | reCaptcha | JavaScript, Google API reCaptcha, Bootstrap | reCaptcha module | /
 HTML_CSS_JS | dragNdrop | bootstrap 4.1.3 (only for beautify/layout) | drag and drop a list of images or import them with a classic button | /

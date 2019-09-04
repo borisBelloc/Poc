@@ -1,0 +1,32 @@
+/* LOADINGGG */
+.loading-page {
+  width: 100vh;
+  height: 100vh;
+  background: #143975;
+  /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
+
+}
+
+.loading-page .counter h1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 300px;
+  font-weight: bolder;
+  margin-top: -10px;
+}
+
+.loading-page .counter h2 {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+  margin-top: -10px;
+}

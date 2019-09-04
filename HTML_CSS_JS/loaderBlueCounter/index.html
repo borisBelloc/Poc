@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+
+  <meta name='author' content='Boris Belloc'>
+
+  <!-- * CSS then JQUERY then JS !! -->
+  <!-- CDN BOOTSTRAP 4.0 -->
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+    integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'
+    integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'>
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'
+    integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'>
+  </script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+    integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'>
+  </script>
+
+  <!------ Custom ressources ---------->
+  <link rel='stylesheet' type='text/css' href='blueLoader.css' />
+  <!-- <script src='JS_file_name.js'></script> -->
+  <!------ END Custom ressources ---------->
+  <link rel="shortcut icon" type="image/png" href="../../img/poc.png" />
+
+  <title>blue Loader</title>
+</head>
+
+<body>
+
+  <!-- CONTENT -->
+
+  <div class="container-fluid p-0">
+    <div class="row">
+      <div class="col-12  text-center">
+      <div class="loading-page">
+        <div class="counter">
+          <h2>LOADING :</h2>
+          <h1></h1>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var counter = 0;
+      var c = 0;
+      var i = setInterval(function () {
+        $(".loading-page .counter h1").html(c + " %");
+        $(".loading-page").css("width", c + "%");
+
+        counter++;
+        c++;
+        if (counter == 101) {
+          clearInterval(i);
+        }
+      }, 35)
+    })
+  </script>
+
+  <!-- CONTENT -->
+
+
+</body>
+
+</html>
