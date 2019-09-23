@@ -35,6 +35,7 @@ Main folder : HTML_CSS_JS :family:
 
 child Folder | Additional languages and/or framework used | What | TODO "one day"
 ---- | ---- | ----| ----
+<!-- ribbonImgCorner | Css | Black ribbon for image --> CANCELED
 websiteLoader | jQuery | Website loader connected
 loaderBlueCounter | Css, jQuery | Blue loader | todo: connect it to page loading
 passwordReveal | VueJS, Bootstrap | add an icons near a password input to let the user reveal his password before validation | /
