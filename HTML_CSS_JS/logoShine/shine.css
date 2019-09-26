@@ -1,0 +1,51 @@
+[class*="container"] {
+  /* text-align: center; */
+  /* border: 1px solid coral; */
+}
+
+[class*="row"] {
+  /* border: 1px solid red; */
+}
+
+[class*="col-"] {
+  /* border: 1px solid yellow; */
+}
+
+
+
+
+body {
+  background-color: cornflowerblue;
+}
+
+
+/* //////////////// */
+a.logo {
+	display: block;
+  /* background: url("bbor.png") 0 0 no-repeat; */
+  background: url("bbor.png");
+  background-size: cover;
+
+	height: 70px;
+  width: 91px;
+  
+  /* overflow: hidden; */
+}
+
+a.logo span {
+	display: block;
+	background: url("shine.png") -60px -80px no-repeat;	
+
+	transition-property: all;
+	/* transition-duration: .8s; */
+	transition-duration: .2s;
+
+	height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+a.logo:hover span {
+	background-position: 100px 100px;
+}
