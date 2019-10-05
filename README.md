@@ -50,6 +50,14 @@ dragNdrop | bootstrap 4.1.3 (only for beautify/layout) | drag and drop a list of
 
 <br/><br/>
 
+JAVA :coffee: *_ready to use_ functions* :dress:
+=======
+Main Folder | file | imports | What
+ ---- | ---- | ---- | ----
+JAVA | java_randomInt.java | java.util.concurrent.ThreadLocalRandom; | Random int function
+
+<br/><br/>
+
 PYTHON :snake: *_ready to use_ functions* :cyclone:
 =======
 
