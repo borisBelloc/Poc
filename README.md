@@ -53,6 +53,8 @@ JAVA :coffee: *_ready to use_ functions* :dress:
 =======
 Main Folder | file | imports | What
  ---- | ---- | ---- | ----
+ 
+JAVA | isStringNull.java  | / | Method to check if a string is null
 JAVA | java_randomInt.java | java.util.concurrent.ThreadLocalRandom; | Random int function
 
 <br/><br/>
