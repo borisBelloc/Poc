@@ -53,7 +53,7 @@ JAVA :coffee: *_ready to use_ functions* :dress:
 =======
 Main Folder | file | imports | What
  ---- | ---- | ---- | ----
- 
+JAVA | scannerInt.java | / | 3 methods to test an _int_ scanner (range, isInt)
 JAVA | isStringNull.java  | / | Method to check if a string is null
 JAVA | java_randomInt.java | java.util.concurrent.ThreadLocalRandom; | Random int function
 
