@@ -23,7 +23,8 @@ public class RandomUtil {
 		if (vMin >= vMax) {
 			throw new IllegalArgumentException("max must be greater than min");
 		}
-		return new Random().nextInt((vMax) + 1) + vMin;
+		vMax += 1; // make max inclusive
+		return new Random().nextInt(vMax-vMin) + vMin;
 	}
 	
 	
