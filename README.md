@@ -65,6 +65,7 @@ PYTHON :snake: *_ready to use_ functions* :cyclone:
 
 Main Folder | file | imports | What
  ---- | ---- | ---- | ----
+PYTHON | name_generator | NameGenerator | script to generate random names
 PYTHON | py_unaccent.py | unicodedata | function to remove accents from a string.
 
 <br/><br/>
