@@ -63,6 +63,8 @@ JAVA | java_randomInt.java | java.util.concurrent.ThreadLocalRandom; | Random in
 PYTHON :snake: *_ready to use_ functions* :cyclone:
 =======
 
+[Other repository with Python Library and framework](https://github.com/borisBelloc/PythonLibrariesAndFrameworks) : pywebcopy, http server, etc...
+
 Main Folder | file | imports | What
  ---- | ---- | ---- | ----
 PYTHON | name_generator | NameGenerator | script to generate random names
